@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 360px;
+    width: 420px;
+}
+
+.grid div {
+    width: 14%;
+    height: 16.6%;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#restart{
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 400px) {
+    .grid{
+        height: 240px;
+        width: 280px;
+    }
+}
